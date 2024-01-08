@@ -3,5 +3,5 @@ from . import views
 
 app_name = 'crud'
 urlpatterns = [
-
+    path('', views.home, name='home'),
 ]
